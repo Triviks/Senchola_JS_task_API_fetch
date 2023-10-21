@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+body {
+    background-image: url('../images/wp1917124.jpg');
+    /* background-image:  url('../images/1152303.jpg'); */
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#brandImg {
+    filter: drop-shadow(0px 1px 1px black);
+}
+
+.buttonActive {
+    border-radius: 15px;
+    border: none;
+    outline: 1px groove navy;
+    /* font-weight: 600; */
+    font-size: 16px;
+    cursor: pointer;  
+    padding:6px 25px 8px;
+    background-color: transparent;
+    /* color: white;     */
+}
+
+.button {
+    padding:6px 25px 8px;
+    border-radius: 15px;
+    border: none;
+    /* font-weight: 600; */
+    font-size: 16px;
+    cursor: pointer;  
+    color: red;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.form-box {
+    border-radius: 25px;
+    border: 0.5px ridge white;
+    box-shadow: 0px 0px 50px black;
+    outline: 2px groove red;
+    outline-offset: 20px;
+    color: white;
+    /* background-image:  url('../images/1152303.jpg'); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    backdrop-filter: blur(20px);
+}
+
+.form-box h3 {
+    color: transparent;
+    -webkit-text-stroke: 1px navy;
+    font-weight: 100;
+}
+
+input {
+    background: transparent !important;
+    color: white !important;
+}
+
+input::placeholder, select::placeholder {
+    background: transparent !important;
+    color: white !important;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  display: none;
+}
+
+input::placeholder {
+    transition-duration: 500ms;
+}
+
+input:focus::placeholder {
+    transform: translateX(-250px) translateY(-15px) scale(0);
+}
+
+.table-box {
+    backdrop-filter: blur(15px);
+}
+
+#footer {
+    font-size: 12px;
+    font-family: Montserrat;
+    font-weight: 800;
+}
+
+#centered{
+    padding-bottom: 250px;
+    margin-top: 100px !important;
+}
+
+
+
+
